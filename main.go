@@ -9,6 +9,7 @@ func main() {
 	fmt.Println("Segundo commit")
 
 	fmt.Printf("Mi suma es: %d\n", fn_add(10, 11))
+	fmt.Printf("Suma no válida: %d\n", fn_add(-1, 22))
 }
 
 // fn_add verifica si los numeros son mayores a 0,
